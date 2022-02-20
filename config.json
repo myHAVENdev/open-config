@@ -16,5 +16,15 @@
         }
       }
     ]
+  },
+  "SqlDbSettings": {
+    "ConnectionString": "Server=host.docker.internal;Database=myHAVEN_Auth;Trusted_Connection=True;"
+  },
+  "RedisSettings": {
+    "ConnectionString": "klip"
+  },
+  "AzureServiceBusSettings": {
+    "ConnectionString": "klip-klip",
+    "SubscriptionClientName": "myHAVEN-dev"
   }
 }
