@@ -18,3 +18,15 @@ RedisSettings:
 AzureServiceBusSettings:
   ConnectionString: klip-klip
   SubscriptionClientName: myHAVEN-dev
+management:
+  endpoints:
+    actuator:
+      exposure:
+        include: [ "*" ]
+  tracing:
+    alwaysSample: true
+    useShortTraceIds: true
+    exporter:
+      zipkin:
+        useShortTraceIds: true
+        endpoint: http://zipkinserver:9411/api/v2/spans
