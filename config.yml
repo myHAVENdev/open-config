@@ -8,11 +8,11 @@ Serilog:
   WriteTo:
   - Name: MSSqlServer
     Args:
-      connectionString: data source=host.docker.internal;initial catalog=BuBu;persist security
+      connectionString: data source=localhost;initial catalog=BuBu;persist security
         info=True; Integrated Security=SSPI;
       tableName: Log
 SqlDbSettings:
-  ConnectionString: Server=host.docker.internal;Database=myHAVEN_Auth;Trusted_Connection=True;
+  ConnectionString: Server=localhost;Database=myHAVEN_Auth;Trusted_Connection=True;
 RedisSettings:
   ConnectionString: klip
 AzureServiceBusSettings:
