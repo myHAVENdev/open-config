@@ -12,7 +12,6 @@ Serilog:
         info=True; Integrated Security=SSPI;
       tableName: Log
 AuthSettings:
----move to vault
   Secret: bububee;
   RefreshTokenExpiresDays:365;
 SqlDbSettings:
