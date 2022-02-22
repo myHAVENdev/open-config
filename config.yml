@@ -11,6 +11,10 @@ Serilog:
       connectionString: data source=localhost;initial catalog=BuBu;persist security
         info=True; Integrated Security=SSPI;
       tableName: Log
+AuthSettings:
+---move to vault
+  Secret: bububee;
+  RefreshTokenExpiresDays:365;
 SqlDbSettings:
   ConnectionString: Server=localhost;Database=myHAVEN_Auth;Trusted_Connection=True;
 RedisSettings:
