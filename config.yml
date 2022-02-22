@@ -12,7 +12,7 @@ Serilog:
         info=True; Integrated Security=SSPI;
       tableName: Log
 AuthSettings:
-  Secret: bububee
+  Secret: bububeeVkYp3s6v9y$B&E(H+MbQeThWmZq4t7w!
   RefreshTokenExpiresDays: 365
 SqlDbSettings:
   ConnectionString: Server=localhost;Database=myHAVEN_Auth;Trusted_Connection=True;
