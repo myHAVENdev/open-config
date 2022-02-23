@@ -1,4 +1,9 @@
 ---
+ApplicationInsights:
+  InstrumentationKey: putinstrumentationkeyhere
+Logging:
+  LogLevel:
+    Default: Warning
 Serilog:
   MinimumLevel:
     Default: Information
