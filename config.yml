@@ -25,9 +25,6 @@ SqlDbSettings:
   ConnectionString: Server=localhost;Database=myHAVEN_Auth;Trusted_Connection=True;
 RedisSettings:
   ConnectionString: klip
-AzureServiceBusSettings:
-  ConnectionString: klip-klip
-  SubscriptionClientName: myHAVEN-dev
 management:
   endpoints:
     actuator:
