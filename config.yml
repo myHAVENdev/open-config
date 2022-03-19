@@ -1,22 +1,4 @@
 ---
-Logging:
-  LogLevel:
-    Default: Information
-Serilog:
-  MinimumLevel:
-    Default: Information
-    Override:
-      Microsoft: Warning
-      Microsoft.Hosting.Lifetime: Information
-  WriteTo:
-  - Name: MSSqlServer
-    Args:
-      connectionString: data source=localhost;initial catalog=BuBu;persist security
-        info=True; Integrated Security=SSPI;
-      tableName: Log
-AuthSettings:
-  Secret: bububeeVkYp3s6v9y$B&E(H+MbQeThWmZq4t7w!
-  RefreshTokenExpiresDays: 365
 SqlDbSettings:
   ConnectionString: Server=localhost;Database=myHAVEN_Auth;Trusted_Connection=True;
 RedisSettings:
