@@ -1,8 +1,4 @@
 ---
-ApplicationInsights:
-  LogLevel:
-    Default: Information
-    ConnectionString: "InstrumentationKey=00000000-0000-0000-0000-000000000000;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/"
 Logging:
   LogLevel:
     Default: Information
